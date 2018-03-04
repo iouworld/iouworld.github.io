@@ -1,3 +1,40 @@
 .bg-dark {
-    background: #57e67a!important;
+  background: #57e67a!important;
+}
+
+.dropshadow {
+  -webkit-filter: drop-shadow(0px 6px 8px rgba(149,205,111,0.5));
+  filter: drop-shadow(0px 6px 8px rgba(149,205,111,0.5));
+}
+
+a.some-icon {
+  color: white;
+}
+
+a.some-icon:hover {
+  text-decoration: none;
+}
+
+.p-6 {
+  padding: 6rem !important;
+}
+
+.pt-6,
+.py-6 {
+  padding-top: 6rem !important;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 6rem !important;
+}
+
+.pb-6,
+.py-6 {
+  padding-bottom: 6rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 6rem !important;
 }
